@@ -7,5 +7,7 @@
 5. Selecione a pasta que possuir os arquivos desse modo:
 6. <img width="940" height="592" alt="Image" src="https://github.com/user-attachments/assets/0b0afde5-ff83-40cf-879f-917d7f4e367a" />
 ## 2° Etapa - Utilização
-1. Clique duas vezes sobre o "Main". Abra a pasta onde residem os arquivos, e abra as propriedades do arquivo "E1_Impressorra01.dll" usando o botão direito do mouse. Assim feito, copie o caminho do arquivo, e cole no respectivo local, mantendo o "\\E1_Impressorra01.dll"
-2. 
+1. Clique duas vezes sobre o "Main". Abra a pasta onde residem os arquivos, e abra as propriedades do arquivo "E1_Impressorra01.dll" usando o botão direito do mouse. Assim feito, copie o caminho do arquivo, e cole no respectivo local, mantendo o "//E1_Impressorra01.dll".
+2. <img width="1737" height="797" alt="Image" src="https://github.com/user-attachments/assets/a36c5e79-f00a-49e0-a997-caf98d1bc62f" />
+3. Desça um pouco no código até a linha 234, faça a mesma coisa que fez anteriormente, porém com o arquivo "CANC_SAT.xml", Mantendo o "//CANC_SAT.xml".
+4. 
