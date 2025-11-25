@@ -6,3 +6,6 @@
 4. <img width="962" height="750" alt="Image" src="https://github.com/user-attachments/assets/26b73b39-3cf8-46ac-9719-60598f8a48a0" />
 5. Selecione a pasta que possuir os arquivos desse modo:
 6. <img width="940" height="592" alt="Image" src="https://github.com/user-attachments/assets/0b0afde5-ff83-40cf-879f-917d7f4e367a" />
+## 2° Etapa - Utilização
+1. Clique duas vezes sobre o "Main". Abra a pasta onde residem os arquivos, e abra as propriedades do arquivo "E1_Impressorra01.dll" usando o botão direito do mouse. Assim feito, copie o caminho do arquivo, e cole no respectivo local, mantendo o "\\E1_Impressorra01.dll"
+2. 
