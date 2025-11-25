@@ -104,7 +104,7 @@ public class Main {
     }
 
     /*Função que imprime um texto digitado pelo usuário, os parâmetros da linha 109 (dados, 1, 0, 1) da função podem ser alterados, conforme 
-    diz a documentação da Elgin (presente no README.md)
+    diz a documentação da Elgin (presente no README.md, 4° Etapa)
     */
     public static void ImpressaoTexto() {
         if (conexaoAberta){
@@ -126,12 +126,14 @@ public class Main {
         }
     }
 
-    //Função que imprime um código de barras, não deve ser alterada pois é muito complicada para alguém sem experiência
+    /*Função que imprime um código de barras, pode ser alterada, mas somente por alguém que tenha certa experiência, acesse a documentação Elgin
+    (no README.md, 4° Etapa) para alterar adequadamente
+    */
     public static void ImpressaoCodigoBarras() {
         if (conexaoAberta){
 
             // (8, "{A012345678912", 100, 2, 3)
-            int retorno = ImpressoraDLL.INSTANCE.ImpressaoCodigoBarras(8, "{A012345678912",100,2,3);
+            int retorno = ImpressoraDLL.INSTANCE.ImpressaoCodigoBarras(8, "{A012345678912",100,2,3); //parâmetros
 
             if (retorno == 0){
                 System.out.println("Dados Impressos com sucesso");
@@ -147,7 +149,7 @@ public class Main {
     }
 
     /*Função que imprime um QRCode, os parâmetros da linha 154 (dados, 6, 4) podem ser alterados, veja como na documentação da Elgin
-    presente no arquivo README.md
+    presente no arquivo README.md(4° Etapa)
     */
     public static void ImpressaoQRCode() {
         if (conexaoAberta){
@@ -171,7 +173,7 @@ public class Main {
         }
     }
 
-    //Função que abre a gaveta da impressora, os parâmetros dessa função podem ser alterados, veja como na documentação Elgin presemte no README.md
+    //Função que abre a gaveta da impressora, os parâmetros dessa função podem ser alterados, veja como na documentação Elgin presemte no README.md(4° Etapa)
     public static void AbreGaveta() {
         if (conexaoAberta){
 
@@ -206,7 +208,7 @@ public class Main {
         }
     }
 
-    //Função que emite um sinal sonoro, os parâmetros podem ser alterados, veja como na documentação Elgin, presente no README.md
+    //Função que emite um sinal sonoro, os parâmetros podem ser alterados, veja como na documentação Elgin, presente no README.md(4° Etapa)
     public static void SinalSonoro() {
         if (conexaoAberta){
 
@@ -352,3 +354,4 @@ public class Main {
 
 
 }
+
