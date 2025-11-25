@@ -1,3 +1,4 @@
+### Autores: Eloísa Cândido de Oliveira, Eros Max Santos Campos, Felipe Lorenzo Chaves Custodio, Maria Clara Silva Melo dos Santos, Matheus Felipe de Souza Masson e Sophia Oliveira Silva.
 # Impressora-Elgin2 - Guia de Manuseio
 ## 1° Etapa - Instalação
 1. Instale e faça a extração dos arquivos necessários para a utilização do programa: CANC_SAT.xml, E1_Impressora01.dll, Java-Aluno EM.iml, Main.java, NFCe.xml, NFCeCancelamento.xml, README.md e XMLSAT.xml.
